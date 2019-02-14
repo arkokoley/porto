@@ -91,7 +91,7 @@ h2 {
 }
 
 .highlight {
-  color: #eb298c !important;
+  color: var(--basecolor) !important;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
@@ -104,8 +104,8 @@ h2 {
 .highlight:hover,
 .highlight:active {
   text-decoration: none !important;
-  color: #eb298c !important;
-  border-color: #eb298c;
+  color: var(--basecolor) !important;
+  border-color: var(--basecolor);
 }
 
 p,

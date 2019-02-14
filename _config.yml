@@ -25,7 +25,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 medium_username:  jekyllrb
-color: "#EB298C"
+color: "#5b3277"  # a base color for your 
 google_analytics: # google analytics ID
 
 # Build settings
