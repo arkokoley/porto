@@ -8,9 +8,9 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="author" content="{{ site.title }}">
   <title>{{ site.title }}</title>
-  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
-  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/images/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="{{ site.url }}{{ site.baseurl }}/images/favicon-32x32.png" sizes="32x32" />
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/css/style.css">
   {% feed_meta %}
   {% seo %}
 </head>
@@ -22,7 +22,7 @@
           <header>
               <div class="row">
                   <div class="col-xs-12 text-center">
-                      <a href="index.html"><img src="images/me.jpg" alt="{{ site.title }}" class="icon" id="logoIcon"/></a>
+                      <a href="index.html"><img src="{{ site.url }}{{ site.baseurl }}/images/me.jpg" alt="{{ site.title }}" class="icon" id="logoIcon"/></a>
                   </div>
                   <div class="col-xs-12 text-center nLWrapper">
                       <h2>{{ site.title }}</h2>
