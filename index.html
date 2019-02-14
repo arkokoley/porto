@@ -1,0 +1,150 @@
+---
+layout: default
+---
+<section class="projects flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/laptop.png" alt="Projects" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Projects</h4>
+            <!-- <p>
+                <a href="https://github.com/arshdkhn1/gsoc17-convert-xul-to-html" class="paraLinks" target="_blank">GSoC 17</a>,
+                <a href="https://github.com/arshdkhn1/stanford-courses" class="paraLinks" target="_blank">Stanford Courses</a>, and
+                <a href="https://github.com/arshdkhn1/freecodecamp-projects" class="paraLinks" target="_blank">FreeCodeCamp projects</a>
+                are some of my latest work which includes some notable Java and JavaScript projects.
+            </p> -->
+            <p>
+                <a class="highlight" href="projects.html">All Projects</a>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="blogs flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/blog.png" alt="Blog" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Blog</h4>
+            <!-- <p>
+                My latest blog post was: <a href="https://medium.com/@arshdkhn1/simple-made-easy-convert-xul-to-html-5dd48c2fdf68"
+                    class="paraLinks" target="_blank">Simple Made Easy— Convert XUL to HTML</a>.
+            </p> -->
+            <p>
+                <a class="highlight" target="_blank" href="https://medium.com/@{{ site.medium_username }}">All blog posts</a>
+            </p>
+        </div>
+    </div>
+</section>
+<section class="skills flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/wrench.png" alt="Skills" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Skills</h4>
+            <p>C, C++, Java, Python, Bash, HTML, CSS, Pug(Jade), Sass, JavaScript, JQuery, ReactJS, React Router,
+                Redux, D3.js, Node.js, Express, MongoDB, Git, Mercurial, Webpack, Adobe Photoshop, Adobe Illustrator.
+            </p>
+            <!-- <p>
+                <a class="highlight" target="_blank" href="https://goo.gl/psEkQT">Google Summer of Code 2017 Certificate</a>
+            </p>
+            <p>
+                <a class="highlight" target="_blank" href="https://goo.gl/d7pGdt">Front-end Web Development Certificate</a>
+            </p>
+            <p>
+                <a class="highlight" target="_blank" href="https://goo.gl/NE48lW">Data-visualization Certificate</a>
+            </p>
+            <p>
+                <a class="highlight" target="_blank" href="https://goo.gl/74PB30">Back-end Web Development Certificate</a>
+            </p>
+            <p>
+                <a class="highlight" target="_blank" href="https://goo.gl/oqoGuV">MongoDB for Node.js developers Certificate</a>
+            </p> -->
+        </div>
+    </div>
+</section>
+<!-- <section class="graphicDesign flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/helmet.png" alt="Graphic design" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Graphic Designs</h4>
+            <p>
+                <a class="paraLinks" href="https://drive.google.com/open?id=0B4eS4nKUNceuNUw1TDVWOF93aU0" target="_blank">Exquisite</a>,
+                <a class="paraLinks" href="https://drive.google.com/open?id=0B4eS4nKUNceuSnpyTGhpWVlhWlk" target="_blank">Artist Battle</a>,
+                <a class="paraLinks" href="https://drive.google.com/open?id=0B4eS4nKUNceuUHdQeW9rd3RHOXc" target="_blank">MTG-Events</a>,
+                <a class="paraLinks" href="https://drive.google.com/open?id=0B4eS4nKUNceueEdUM3NSTmxUMkE" target="_blank">Kinect Gaming</a>                            and <a class="paraLinks" href="https://drive.google.com/open?id=0B4eS4nKUNceuQjlXNXllTGVEVWM"
+                    target="_blank">MTG flex</a> are some posters that I made and designed for my college's technical
+                society.
+            </p>
+        </div>
+    </div>
+</section> -->
+<section class="currentWork flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/pencil.png" alt="Current Work" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Current Work</h4>
+            <p>I am working with Mozilla Thunderbird.</p>
+        </div>
+    </div>
+</section>
+<section class="likes flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/heart.png" alt="Likes" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Likes</h4>
+            <p>My current interests are augmented reality and electron apps. Besides technology I love physics, grafitti,
+                photography, designing and aesthetics.</p>
+        </div>
+    </div>
+</section>
+<!-- <section class="hire flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img src="images/like.png" alt="Hire" class="icon" />
+        </div>
+        <div class="col-xs-9">
+            <h4>Hire</h4>
+            <p>I am not available for work, but you can check out my resume.</p>
+            <p> <a href="resume.html" class="highlight" target="_blank">Resume</a> </p>
+        </div>
+    </div>
+</section> -->
+<section class="contact flex">
+    <div class="row">
+        <div class="col-xs-3">
+            <img class="icon" src="images/letter.png" alt="Contact" />
+        </div>
+        <script>
+            function greet() {
+                var nameVal = document.getElementById('name').checkValidity();
+                var emailVal = document.getElementById('email').checkValidity();
+                var textareaVal = document.getElementById('message').checkValidity();
+                if (nameVal && emailVal && textareaVal) {
+                    document.getElementById('sendButton').style.width = "97px";
+                    document.getElementById('sendButton').setAttribute('value', 'thanks!');
+                }
+            }
+        </script>
+        <div class="col-xs-9">
+            <h4>Contact me</h4>
+            <p>Feel free to drop me a line or two, I will get back to you asap.</p>
+            <form action="https://formspree.io/sample@gmail.com" method="POST">
+                <input id="name" name="name" type="text" placeholder="Name" required/>
+                <input id="email" name="_replyto" type="email" placeholder="Email" required/>
+                <input type="text" name="_gotcha" style="display:none" />
+                <input type="hidden" name="_next" value="//sample.github.io/" />
+                <textarea id="message" name="message" type="text" placeholder="Message" required></textarea>
+                <input id="sendButton" class="btn btn-default" type="submit" value="Send" onclick="greet()" />
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+<section>
+  <div class="row">
+      <div class="col-xs-12">
+          <a href="{{ include.project.link }}" target="_blank">
+  <img class="pimg" src="{{ include.project.img }}" alt="{{ include.project.title }}" />
+</a>
+      </div>
+      <div class="col-xs-12">
+          <h4 class="pname">{{ include.project.title }}</h4>
+          <p class="pdesc">
+            {{include.project.description }}
+          </p>
+          <p class="ptech">
+              Web Technologies used:
+              <span class="ptech">{{ include.project.tech }}</span>
+          </p>
+          <p class="lapara">
+              <a href="{{ include.project.link }}" class="highlight" target="_blank">Live App</a>
+          </p>
+          <p class="cpara">
+              <a href="{{ include.project.code_link }}" class="pcode" target="_blank">Code</a>
+          </p>
+      </div>
+  </div>
+</section>

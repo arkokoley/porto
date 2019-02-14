@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="{{ site.color }}" />
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.title }}">
+  <title>{{ site.title }}</title>
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+  <link rel="stylesheet" href="css/style.css">
+  {% feed_meta %}
+  {% seo %}
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <section id="header">
+          <header>
+              <div class="row">
+                  <div class="col-xs-12 text-center">
+                      <a href="index.html"><img src="images/me.jpg" alt="{{ site.title }}" class="icon" id="logoIcon"/></a>
+                  </div>
+                  <div class="col-xs-12 text-center nLWrapper">
+                      <h2>{{ site.title }}</h2>
+                  </div>
+                  <div class="col-xs-12 text-center">
+                      <h3 class="sub">{{ site.byline }}</h3>
+                  </div>
+              </div>
+          </header>
+      </section>
+      {{ content }}
+      <section>
+        <footer>
+          <div class="row">
+            <div class="col-xs-12 text-center">
+                <!-- <p id="social-network">
+
+                    <a class="fa codepen" href="https://www.codepen.io/arshdkhn1" target="_blank">
+                        Codepen
+                    </a>
+                    <a class="fa linkedin" href="https://www.linkedin.com/in/arshdkhn1" target="_blank">
+                        LinkedIn
+                    </a>
+                </p> -->
+            </div>
+            <div class="col-xs-12 text-center small lastPara">
+                <p>
+                    &copy; Copyright 2018 {{ site.title }}
+                </p>
+                <!-- <p><a class="github" href="https://github.com/arshdkhn1" target="_blank">
+                    @arshdkhn1
+                </a></p> -->
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </div>
+</body>
+{% include google-analytics.html %}
+</html>
